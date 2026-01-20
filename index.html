@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>TeamCSB Tools - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Free Credit Card Tools by TeamCSB" />
+    <meta name="theme-color" content="#06b6d4" /> <!-- Main CSS -->
+    <link rel="stylesheet" href="style.css" /> <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header"> <a href="/" class="logo" style="text-decoration: none;">TeamCSB</a>
+        <div class="header-actions"> <button class="icon-btn" id="themeToggle" title="Toggle theme"> <i
+                    class="fas fa-moon"></i> </button> <button class="icon-btn" id="sidebarToggle" title="Menu"> <i
+                    class="fas fa-bars"></i> </button>
+            <div class="icon-btn"> <a href="https://t.me/team_csb" style="color: inherit; text-decoration: none;"><i
+                        class="fa-brands fa-telegram"></i></a> </div>
+        </div>
+    </header>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="logo">Our All Tools </div>
+        <nav id="menuList">
+            <div class="subsection"> <button class="subsection-header dropdown-btn"> <span><i
+                            class="fas fa-credit-card"></i> Carding Tools</span> <i
+                        class="fas fa-chevron-down dropdown-arrow"></i> </button>
+                <div class="dropdown-content">
+                    <a href="bin/index.html"> <i class="fas fa-credit-card"></i> Bin Generate </a>
+                    <a href="bin-checker/index.html"> <i class="fas fa-check-circle"></i> Bin Checker </a>
+                    <a href="live-cc-checker/index.html"> <i class="fas fa-play-circle"></i> Live CC Checker </a>
+                    <a href="bin-find-share/index.html"> <i class="fas fa-share-alt"></i> Bin Find &amp; Sharing </a>
+                </div>
+            </div>
+        </nav>
+    </aside>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Main Content -->
+    <main class="main">
+        <section class="section" style="text-align: center; margin-top: 50px;">
+            <h1>Welcome to TeamCSB Tools</h1>
+            <p style="margin-bottom: 40px; color: var(--text-color); opacity: 0.8;">Select a tool to get started</p>
+
+            <div class="features-grid">
+                <a href="bin/index.html" class="feature-card"
+                    style="text-decoration: none; display: block; transition: transform 0.2s;">
+                    <i class="fas fa-credit-card"></i>
+                    <h4>BIN Generator</h4>
+                    <p>Generate valid CC numbers for testing</p>
+                </a>
+                <a href="bin-checker/index.html" class="feature-card"
+                    style="text-decoration: none; display: block; transition: transform 0.2s;">
+                    <i class="fas fa-check-circle"></i>
+                    <h4>BIN Checker</h4>
+                    <p>Check Bank and Country info</p>
+                </a>
+                <a href="live-cc-checker/index.html" class="feature-card"
+                    style="text-decoration: none; display: block; transition: transform 0.2s;">
+                    <i class="fas fa-play-circle"></i>
+                    <h4>Live CC Checker</h4>
+                    <p>Check Live/Die status of cards</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
