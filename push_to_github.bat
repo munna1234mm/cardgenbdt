@@ -1,8 +1,5 @@
 @echo off
 cd /d "%~dp0"
-echo Cleaning old login sessions...
-echo url=https://github.com | git-credential-manager erase
-echo.
 echo Pushing code to GitHub...
 echo IMPORTANT: When the login window pops up, you MUST sign in as "munna1234mm"
 echo.
